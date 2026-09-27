@@ -1,0 +1,6 @@
+faster-whisper
+docling
+sentence-transformers
+qdrant-client
+requests
+numpy

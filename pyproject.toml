@@ -1,0 +1,46 @@
+[project]
+name = "akg"
+version = "0.1.0"
+description = "Multimodal knowledge gateway with verified citations"
+requires-python = ">=3.12"
+
+dependencies = [
+    "faster-whisper==1.2.1",
+    "docling==2.117.0",
+    "sentence-transformers==5.6.1",
+    "qdrant-client==1.18.0",
+    # Pinned to the 5.x line to match the neo4j:5.26 server in docker-compose.
+    "neo4j==5.28.4",
+    # Held below 0.27 because docling's `standard` extra requires typer<0.27.0.
+    "typer==0.26.8",
+    "python-dotenv==1.2.2",
+    "requests>=2.32",
+    "numpy>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.1.1",
+    "pytest-cov==7.1.0",
+    "jiwer==4.0.0",
+    "pyyaml==6.0.3",
+    "pyttsx3==2.99",
+]
+
+[project.scripts]
+akg = "akg.cli:app"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "integration: requires running Qdrant",
+    "llm: requires running Ollama",
+    "graph: requires running Neo4j (docker compose --profile graph up -d)",
+]

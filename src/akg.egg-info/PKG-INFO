@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: akg
+Version: 0.1.0
+Summary: Multimodal knowledge gateway with verified citations
+Requires-Python: >=3.12
+Requires-Dist: faster-whisper==1.2.1
+Requires-Dist: docling==2.117.0
+Requires-Dist: sentence-transformers==5.6.1
+Requires-Dist: qdrant-client==1.18.0
+Requires-Dist: neo4j==5.28.4
+Requires-Dist: typer==0.26.8
+Requires-Dist: python-dotenv==1.2.2
+Requires-Dist: requests>=2.32
+Requires-Dist: numpy>=2.0
+Provides-Extra: dev
+Requires-Dist: pytest==9.1.1; extra == "dev"
+Requires-Dist: pytest-cov==7.1.0; extra == "dev"
+Requires-Dist: jiwer==4.0.0; extra == "dev"
+Requires-Dist: pyyaml==6.0.3; extra == "dev"
+Requires-Dist: pyttsx3==2.99; extra == "dev"

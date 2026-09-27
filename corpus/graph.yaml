@@ -1,0 +1,217 @@
+# Ground truth for the evaluation corpus.
+projects:
+  atlas:
+    name: Project Atlas
+    budget: 120000
+    spent: 85000
+    remaining: 35000
+    launch: 15 August 2026
+    status: at risk
+    superseded: [owner, launch]
+  borealis:
+    name: Project Borealis
+    budget: 90000
+    spent: 50000
+    remaining: 40000
+    launch: 2026-07-01
+    status: on track
+    superseded: [launch]
+  cirrus:
+    name: Project Cirrus
+    budget: 200000
+    spent: 140000
+    remaining: 60000
+    launch: 10 November 2026
+    status: at risk
+  delta:
+    name: Project Delta
+    budget: 75000
+    spent: 20000
+    remaining: 55000
+    launch: 01/03/27
+    status: planning
+  echo:
+    name: Project Echo
+    budget: 160000
+    spent: 95000
+    remaining: 65000
+    launch: 2027-01-18
+    status: on track
+  fathom:
+    name: Project Fathom
+    budget: 45000
+    spent: 41000
+    remaining: 4000
+    launch: 30 September 2026
+    status: at risk
+
+people:
+  maria_chen:
+    name: Maria Chen
+    role: Programme Manager
+  david_okafor:
+    name: David Okafor
+    aliases: [D. Okafor, Dave Okafor]
+    role: Delivery Lead
+  sam_patel:
+    name: Sam Patel
+    role: Delivery Lead
+  lena_ortiz:
+    name: Lena Ortiz
+    role: Delivery Lead
+  priya_raman:
+    name: Priya Raman
+    role: Engineering Manager
+  tom_whitfield:
+    name: Tom Whitfield
+    aliases: [T. Whitfield]
+    role: Delivery Lead
+  aisha_bello:
+    name: Aisha Bello
+    role: Director of Delivery
+  jonas_berg:
+    name: Jonas Berg
+    role: Data Lead
+  hannah_liu:
+    name: Hannah Liu
+    role: QA Lead
+  omar_haddad:
+    name: Omar Haddad
+    role: Platform Lead
+
+teams:
+  data:
+    name: Data Team
+  platform:
+    name: Platform Team
+  payments:
+    name: Payments Team
+  qa:
+    name: QA Team
+
+vendors:
+  meridian:
+    name: Meridian Systems
+    service: payment processing
+  vantage:
+    name: Vantage Analytics
+    service: analytics and reporting
+  northgate:
+    name: Northgate Cloud
+    service: hosting and storage
+  cobalt:
+    name: Cobalt Identity
+    service: authentication
+  redfern:
+    name: Redfern Logistics
+    service: fulfilment integration
+
+risks:
+  r_payment_delay:
+    description: vendor delay on the payment module
+    severity: high
+  r_staffing:
+    description: staffing shortage in the data team
+    severity: high
+  r_contract_unsigned:
+    description: the analytics vendor contract is unsigned
+    severity: medium
+  r_capacity:
+    description: hosting capacity limits during peak load
+    severity: medium
+  r_auth_migration:
+    description: authentication migration has no rollback plan
+    severity: high
+  r_qa_backlog:
+    description: regression backlog in the QA team
+    severity: low
+  r_budget_overrun:
+    description: forecast overrun against remaining budget
+    severity: high
+  r_fulfilment_gap:
+    description: fulfilment integration lacks an owner
+    severity: medium
+
+relations:
+  # Revealed by: portfolio status report
+  owns:
+    - [maria_chen, atlas]
+    - [sam_patel, borealis]
+    - [lena_ortiz, cirrus]
+    - [david_okafor, delta]
+    - [tom_whitfield, echo]
+    - [priya_raman, fathom]
+
+  # Revealed by: org roster
+  member_of:
+    - [maria_chen, platform]
+    - [david_okafor, payments]
+    - [sam_patel, platform]
+    - [lena_ortiz, data]
+    - [priya_raman, qa]
+    - [tom_whitfield, payments]
+    - [jonas_berg, data]
+    - [hannah_liu, qa]
+    - [omar_haddad, platform]
+    - [aisha_bello, platform]
+
+  # Revealed by: org roster
+  reports_to:
+    - [maria_chen, aisha_bello]
+    - [david_okafor, aisha_bello]
+    - [sam_patel, omar_haddad]
+    - [lena_ortiz, jonas_berg]
+    - [priya_raman, hannah_liu]
+    - [tom_whitfield, omar_haddad]
+
+  # Revealed by: team structure
+  supports:
+    - [data, borealis]
+    - [data, fathom]
+    - [platform, atlas]
+    - [platform, echo]
+    - [payments, atlas]
+    - [payments, delta]
+    - [qa, cirrus]
+    - [qa, delta]
+
+  # Revealed by: vendor register
+  supplies:
+    - [meridian, atlas, payment module]
+    - [meridian, delta, billing gateway]
+    - [vantage, cirrus, analytics dashboard]
+    - [vantage, borealis, reporting export]
+    - [northgate, echo, object storage]
+    - [cobalt, fathom, single sign-on]
+    - [redfern, delta, fulfilment API]
+
+  # Revealed by: dependency map
+  depends_on:
+    - [delta, atlas]
+    - [echo, borealis]
+    - [fathom, echo]
+    - [cirrus, borealis]
+    - [delta, fathom]
+    - [atlas, borealis]
+
+  # Revealed by: risk register
+  affects:
+    - [r_payment_delay, atlas]
+    - [r_staffing, borealis]
+    - [r_contract_unsigned, cirrus]
+    - [r_capacity, echo]
+    - [r_auth_migration, fathom]
+    - [r_qa_backlog, cirrus]
+    - [r_budget_overrun, fathom]
+    - [r_fulfilment_gap, delta]
+
+  # Revealed by: risk register
+  caused_by:
+    - [r_payment_delay, meridian]
+    - [r_staffing, data]
+    - [r_contract_unsigned, vantage]
+    - [r_capacity, northgate]
+    - [r_auth_migration, cobalt]
+    - [r_qa_backlog, qa]
+    - [r_fulfilment_gap, redfern]
+    - [r_budget_overrun, platform]

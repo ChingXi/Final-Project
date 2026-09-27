@@ -1,0 +1,1 @@
+Quick note on delivery. Borealis has been brought forward and is now ahead of its original date. Separately, the authentication migration on Fathom still has no rollback plan, which we flagged as the main risk in the meeting.

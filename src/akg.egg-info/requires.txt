@@ -1,0 +1,16 @@
+faster-whisper==1.2.1
+docling==2.117.0
+sentence-transformers==5.6.1
+qdrant-client==1.18.0
+neo4j==5.28.4
+typer==0.26.8
+python-dotenv==1.2.2
+requests>=2.32
+numpy>=2.0
+
+[dev]
+pytest==9.1.1
+pytest-cov==7.1.0
+jiwer==4.0.0
+pyyaml==6.0.3
+pyttsx3==2.99

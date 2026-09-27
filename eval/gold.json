@@ -1,0 +1,1460 @@
+[
+  {
+    "id": "Q01",
+    "type": "multi_hop_2",
+    "question": "Which projects does the team responsible for the staffing shortage in the data team support?",
+    "requires_all": [
+      "Project Borealis",
+      "Project Fathom"
+    ],
+    "query_entities": [
+      "staffing shortage in the data team"
+    ],
+    "expected_files": [
+      "risk_register.pdf",
+      "team_structure.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q02",
+    "type": "multi_hop_2",
+    "question": "Which projects does the team responsible for the regression backlog in the QA team support?",
+    "requires_all": [
+      "Project Cirrus",
+      "Project Delta"
+    ],
+    "query_entities": [
+      "regression backlog in the QA team"
+    ],
+    "expected_files": [
+      "risk_register.pdf",
+      "team_structure.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q03",
+    "type": "multi_hop_2",
+    "question": "Which projects does the team responsible for the forecast overrun against remaining budget support?",
+    "requires_all": [
+      "Project Atlas",
+      "Project Echo"
+    ],
+    "query_entities": [
+      "forecast overrun against remaining budget"
+    ],
+    "expected_files": [
+      "risk_register.pdf",
+      "team_structure.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q04",
+    "type": "multi_hop_2",
+    "question": "If Meridian Systems misses a deadline, which project owners need to be told?",
+    "requires_all": [
+      "Maria Chen",
+      "David Okafor"
+    ],
+    "query_entities": [
+      "Meridian Systems"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf",
+      "vendor_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q05",
+    "type": "multi_hop_2",
+    "question": "If Vantage Analytics misses a deadline, which project owners need to be told?",
+    "requires_all": [
+      "Lena Ortiz",
+      "Sam Patel"
+    ],
+    "query_entities": [
+      "Vantage Analytics"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf",
+      "vendor_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q06",
+    "type": "multi_hop_2",
+    "question": "If Northgate Cloud misses a deadline, which project owners need to be told?",
+    "requires_all": [
+      "Tom Whitfield"
+    ],
+    "query_entities": [
+      "Northgate Cloud"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf",
+      "vendor_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q07",
+    "type": "multi_hop_2",
+    "question": "If Cobalt Identity misses a deadline, which project owners need to be told?",
+    "requires_all": [
+      "Priya Raman"
+    ],
+    "query_entities": [
+      "Cobalt Identity"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf",
+      "vendor_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q08",
+    "type": "multi_hop_2",
+    "question": "If Redfern Logistics misses a deadline, which project owners need to be told?",
+    "requires_all": [
+      "David Okafor"
+    ],
+    "query_entities": [
+      "Redfern Logistics"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf",
+      "vendor_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q09",
+    "type": "multi_hop_2",
+    "question": "Who owns the projects that Project Delta depends on?",
+    "requires_all": [
+      "Maria Chen",
+      "Priya Raman"
+    ],
+    "query_entities": [
+      "Project Delta"
+    ],
+    "expected_files": [
+      "dependency_map.pdf",
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q10",
+    "type": "multi_hop_2",
+    "question": "Who owns the projects that Project Echo depends on?",
+    "requires_all": [
+      "Sam Patel"
+    ],
+    "query_entities": [
+      "Project Echo"
+    ],
+    "expected_files": [
+      "dependency_map.pdf",
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q11",
+    "type": "multi_hop_2",
+    "question": "Who owns the projects that Project Fathom depends on?",
+    "requires_all": [
+      "Tom Whitfield"
+    ],
+    "query_entities": [
+      "Project Fathom"
+    ],
+    "expected_files": [
+      "dependency_map.pdf",
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q12",
+    "type": "multi_hop_2",
+    "question": "Who owns the projects that Project Cirrus depends on?",
+    "requires_all": [
+      "Sam Patel"
+    ],
+    "query_entities": [
+      "Project Cirrus"
+    ],
+    "expected_files": [
+      "dependency_map.pdf",
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q13",
+    "type": "multi_hop_2",
+    "question": "Who owns the projects that Project Atlas depends on?",
+    "requires_all": [
+      "Sam Patel"
+    ],
+    "query_entities": [
+      "Project Atlas"
+    ],
+    "expected_files": [
+      "dependency_map.pdf",
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q14",
+    "type": "multi_hop_2",
+    "question": "Which projects are owned by members of the Data Team?",
+    "requires_all": [
+      "Project Cirrus"
+    ],
+    "query_entities": [
+      "Data Team"
+    ],
+    "expected_files": [
+      "org_roster.pdf",
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q15",
+    "type": "multi_hop_2",
+    "question": "Which projects are owned by members of the Platform Team?",
+    "requires_all": [
+      "Project Atlas",
+      "Project Borealis"
+    ],
+    "query_entities": [
+      "Platform Team"
+    ],
+    "expected_files": [
+      "org_roster.pdf",
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q16",
+    "type": "multi_hop_2",
+    "question": "Which projects are owned by members of the Payments Team?",
+    "requires_all": [
+      "Project Delta",
+      "Project Echo"
+    ],
+    "query_entities": [
+      "Payments Team"
+    ],
+    "expected_files": [
+      "org_roster.pdf",
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q17",
+    "type": "multi_hop_2",
+    "question": "Which projects are owned by members of the QA Team?",
+    "requires_all": [
+      "Project Fathom"
+    ],
+    "query_entities": [
+      "QA Team"
+    ],
+    "expected_files": [
+      "org_roster.pdf",
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q18",
+    "type": "multi_hop_3",
+    "question": "Who owns the projects supported by the team responsible for the staffing shortage in the data team?",
+    "requires_all": [
+      "Sam Patel",
+      "Priya Raman"
+    ],
+    "query_entities": [
+      "staffing shortage in the data team"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf",
+      "risk_register.pdf",
+      "team_structure.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q19",
+    "type": "multi_hop_3",
+    "question": "Who owns the projects supported by the team responsible for the regression backlog in the QA team?",
+    "requires_all": [
+      "Lena Ortiz",
+      "David Okafor"
+    ],
+    "query_entities": [
+      "regression backlog in the QA team"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf",
+      "risk_register.pdf",
+      "team_structure.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q20",
+    "type": "multi_hop_3",
+    "question": "Who owns the projects supported by the team responsible for the forecast overrun against remaining budget?",
+    "requires_all": [
+      "Maria Chen",
+      "Tom Whitfield"
+    ],
+    "query_entities": [
+      "forecast overrun against remaining budget"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf",
+      "risk_register.pdf",
+      "team_structure.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q21",
+    "type": "multi_hop_3",
+    "question": "Who do the owners of the projects that Project Delta depends on report to?",
+    "requires_all": [
+      "Aisha Bello",
+      "Hannah Liu"
+    ],
+    "query_entities": [
+      "Project Delta"
+    ],
+    "expected_files": [
+      "dependency_map.pdf",
+      "org_roster.pdf",
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q22",
+    "type": "multi_hop_3",
+    "question": "Who do the owners of the projects that Project Echo depends on report to?",
+    "requires_all": [
+      "Omar Haddad"
+    ],
+    "query_entities": [
+      "Project Echo"
+    ],
+    "expected_files": [
+      "dependency_map.pdf",
+      "org_roster.pdf",
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q23",
+    "type": "multi_hop_3",
+    "question": "Who do the owners of the projects that Project Fathom depends on report to?",
+    "requires_all": [
+      "Omar Haddad"
+    ],
+    "query_entities": [
+      "Project Fathom"
+    ],
+    "expected_files": [
+      "dependency_map.pdf",
+      "org_roster.pdf",
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q24",
+    "type": "multi_hop_3",
+    "question": "Who do the owners of the projects that Project Cirrus depends on report to?",
+    "requires_all": [
+      "Omar Haddad"
+    ],
+    "query_entities": [
+      "Project Cirrus"
+    ],
+    "expected_files": [
+      "dependency_map.pdf",
+      "org_roster.pdf",
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q25",
+    "type": "multi_hop_3",
+    "question": "Who do the owners of the projects that Project Atlas depends on report to?",
+    "requires_all": [
+      "Omar Haddad"
+    ],
+    "query_entities": [
+      "Project Atlas"
+    ],
+    "expected_files": [
+      "dependency_map.pdf",
+      "org_roster.pdf",
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q26",
+    "type": "multi_hop_3",
+    "question": "Which vendors supply the projects owned by members of the Data Team?",
+    "requires_all": [
+      "Vantage Analytics"
+    ],
+    "query_entities": [
+      "Data Team"
+    ],
+    "expected_files": [
+      "org_roster.pdf",
+      "portfolio_status_report.pdf",
+      "vendor_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q27",
+    "type": "multi_hop_3",
+    "question": "Which vendors supply the projects owned by members of the Platform Team?",
+    "requires_all": [
+      "Meridian Systems",
+      "Vantage Analytics"
+    ],
+    "query_entities": [
+      "Platform Team"
+    ],
+    "expected_files": [
+      "org_roster.pdf",
+      "portfolio_status_report.pdf",
+      "vendor_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q28",
+    "type": "multi_hop_3",
+    "question": "Which vendors supply the projects owned by members of the Payments Team?",
+    "requires_all": [
+      "Meridian Systems",
+      "Northgate Cloud",
+      "Redfern Logistics"
+    ],
+    "query_entities": [
+      "Payments Team"
+    ],
+    "expected_files": [
+      "org_roster.pdf",
+      "portfolio_status_report.pdf",
+      "vendor_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q29",
+    "type": "multi_hop_3",
+    "question": "Which vendors supply the projects owned by members of the QA Team?",
+    "requires_all": [
+      "Cobalt Identity"
+    ],
+    "query_entities": [
+      "QA Team"
+    ],
+    "expected_files": [
+      "org_roster.pdf",
+      "portfolio_status_report.pdf",
+      "vendor_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q30",
+    "type": "single_hop",
+    "question": "What is Project Atlas's budget, and how much remains?",
+    "requires_all": [
+      "120,000",
+      "35,000"
+    ],
+    "query_entities": [
+      "Project Atlas"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q31",
+    "type": "single_hop",
+    "question": "What is Project Borealis's budget, and how much remains?",
+    "requires_all": [
+      "90,000",
+      "40,000"
+    ],
+    "query_entities": [
+      "Project Borealis"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q32",
+    "type": "single_hop",
+    "question": "What is Project Cirrus's budget, and how much remains?",
+    "requires_all": [
+      "200,000",
+      "60,000"
+    ],
+    "query_entities": [
+      "Project Cirrus"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q33",
+    "type": "single_hop",
+    "question": "What is Project Delta's budget, and how much remains?",
+    "requires_all": [
+      "75,000",
+      "55,000"
+    ],
+    "query_entities": [
+      "Project Delta"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q34",
+    "type": "single_hop",
+    "question": "What is Project Echo's budget, and how much remains?",
+    "requires_all": [
+      "160,000",
+      "65,000"
+    ],
+    "query_entities": [
+      "Project Echo"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q35",
+    "type": "single_hop",
+    "question": "What is Project Fathom's budget, and how much remains?",
+    "requires_all": [
+      "45,000",
+      "4,000"
+    ],
+    "query_entities": [
+      "Project Fathom"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q36",
+    "type": "single_hop",
+    "question": "Who owns Project Borealis?",
+    "requires_all": [
+      "Sam Patel"
+    ],
+    "query_entities": [
+      "Project Borealis"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q37",
+    "type": "single_hop",
+    "question": "Who owns Project Cirrus?",
+    "requires_all": [
+      "Lena Ortiz"
+    ],
+    "query_entities": [
+      "Project Cirrus"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q38",
+    "type": "single_hop",
+    "question": "Who owns Project Delta?",
+    "requires_all": [
+      "David Okafor"
+    ],
+    "query_entities": [
+      "Project Delta"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q39",
+    "type": "single_hop",
+    "question": "Who owns Project Echo?",
+    "requires_all": [
+      "Tom Whitfield"
+    ],
+    "query_entities": [
+      "Project Echo"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q40",
+    "type": "single_hop",
+    "question": "Who owns Project Fathom?",
+    "requires_all": [
+      "Priya Raman"
+    ],
+    "query_entities": [
+      "Project Fathom"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q41",
+    "type": "single_hop",
+    "question": "When is Project Cirrus planned to launch, and what is its reported status?",
+    "requires_all": [
+      "10 November 2026",
+      "at risk"
+    ],
+    "query_entities": [
+      "Project Cirrus"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q42",
+    "type": "single_hop",
+    "question": "When is Project Delta planned to launch, and what is its reported status?",
+    "requires_all": [
+      "01/03/27",
+      "planning"
+    ],
+    "query_entities": [
+      "Project Delta"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q43",
+    "type": "single_hop",
+    "question": "When is Project Echo planned to launch, and what is its reported status?",
+    "requires_all": [
+      "2027-01-18",
+      "on track"
+    ],
+    "query_entities": [
+      "Project Echo"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q44",
+    "type": "single_hop",
+    "question": "When is Project Fathom planned to launch, and what is its reported status?",
+    "requires_all": [
+      "30 September 2026",
+      "at risk"
+    ],
+    "query_entities": [
+      "Project Fathom"
+    ],
+    "expected_files": [
+      "portfolio_status_report.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q45",
+    "type": "single_hop",
+    "question": "Which projects does the Data Team support?",
+    "requires_all": [
+      "Project Borealis",
+      "Project Fathom"
+    ],
+    "query_entities": [
+      "Data Team"
+    ],
+    "expected_files": [
+      "team_structure.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q46",
+    "type": "single_hop",
+    "question": "Which projects does the Platform Team support?",
+    "requires_all": [
+      "Project Atlas",
+      "Project Echo"
+    ],
+    "query_entities": [
+      "Platform Team"
+    ],
+    "expected_files": [
+      "team_structure.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q47",
+    "type": "single_hop",
+    "question": "Which projects does the Payments Team support?",
+    "requires_all": [
+      "Project Atlas",
+      "Project Delta"
+    ],
+    "query_entities": [
+      "Payments Team"
+    ],
+    "expected_files": [
+      "team_structure.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q48",
+    "type": "single_hop",
+    "question": "Which projects does the QA Team support?",
+    "requires_all": [
+      "Project Cirrus",
+      "Project Delta"
+    ],
+    "query_entities": [
+      "QA Team"
+    ],
+    "expected_files": [
+      "team_structure.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q49",
+    "type": "single_hop",
+    "question": "What service does Meridian Systems provide, and which projects does it supply?",
+    "requires_all": [
+      "payment processing",
+      "Project Atlas",
+      "Project Delta"
+    ],
+    "query_entities": [
+      "Meridian Systems"
+    ],
+    "expected_files": [
+      "vendor_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q50",
+    "type": "single_hop",
+    "question": "What service does Vantage Analytics provide, and which projects does it supply?",
+    "requires_all": [
+      "analytics and reporting",
+      "Project Cirrus",
+      "Project Borealis"
+    ],
+    "query_entities": [
+      "Vantage Analytics"
+    ],
+    "expected_files": [
+      "vendor_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q51",
+    "type": "single_hop",
+    "question": "What service does Northgate Cloud provide, and which projects does it supply?",
+    "requires_all": [
+      "hosting and storage",
+      "Project Echo"
+    ],
+    "query_entities": [
+      "Northgate Cloud"
+    ],
+    "expected_files": [
+      "vendor_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q52",
+    "type": "single_hop",
+    "question": "What service does Cobalt Identity provide, and which projects does it supply?",
+    "requires_all": [
+      "authentication",
+      "Project Fathom"
+    ],
+    "query_entities": [
+      "Cobalt Identity"
+    ],
+    "expected_files": [
+      "vendor_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q53",
+    "type": "single_hop",
+    "question": "What service does Redfern Logistics provide, and which projects does it supply?",
+    "requires_all": [
+      "fulfilment integration",
+      "Project Delta"
+    ],
+    "query_entities": [
+      "Redfern Logistics"
+    ],
+    "expected_files": [
+      "vendor_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q54",
+    "type": "single_hop",
+    "question": "What severity is recorded for the vendor delay on the payment module, and who is it attributed to?",
+    "requires_all": [
+      "high",
+      "Meridian Systems"
+    ],
+    "query_entities": [
+      "vendor delay on the payment module"
+    ],
+    "expected_files": [
+      "risk_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q55",
+    "type": "single_hop",
+    "question": "What severity is recorded for the staffing shortage in the data team, and who is it attributed to?",
+    "requires_all": [
+      "high",
+      "Data Team"
+    ],
+    "query_entities": [
+      "staffing shortage in the data team"
+    ],
+    "expected_files": [
+      "risk_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q56",
+    "type": "single_hop",
+    "question": "What severity is recorded for the the analytics vendor contract is unsigned, and who is it attributed to?",
+    "requires_all": [
+      "medium",
+      "Vantage Analytics"
+    ],
+    "query_entities": [
+      "the analytics vendor contract is unsigned"
+    ],
+    "expected_files": [
+      "risk_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q57",
+    "type": "single_hop",
+    "question": "What severity is recorded for the hosting capacity limits during peak load, and who is it attributed to?",
+    "requires_all": [
+      "medium",
+      "Northgate Cloud"
+    ],
+    "query_entities": [
+      "hosting capacity limits during peak load"
+    ],
+    "expected_files": [
+      "risk_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q58",
+    "type": "single_hop",
+    "question": "What severity is recorded for the authentication migration has no rollback plan, and who is it attributed to?",
+    "requires_all": [
+      "high",
+      "Cobalt Identity"
+    ],
+    "query_entities": [
+      "authentication migration has no rollback plan"
+    ],
+    "expected_files": [
+      "risk_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q59",
+    "type": "single_hop",
+    "question": "What severity is recorded for the regression backlog in the QA team, and who is it attributed to?",
+    "requires_all": [
+      "low",
+      "QA Team"
+    ],
+    "query_entities": [
+      "regression backlog in the QA team"
+    ],
+    "expected_files": [
+      "risk_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q60",
+    "type": "single_hop",
+    "question": "What severity is recorded for the forecast overrun against remaining budget, and who is it attributed to?",
+    "requires_all": [
+      "high",
+      "Platform Team"
+    ],
+    "query_entities": [
+      "forecast overrun against remaining budget"
+    ],
+    "expected_files": [
+      "risk_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q61",
+    "type": "single_hop",
+    "question": "What severity is recorded for the fulfilment integration lacks an owner, and who is it attributed to?",
+    "requires_all": [
+      "medium",
+      "Redfern Logistics"
+    ],
+    "query_entities": [
+      "fulfilment integration lacks an owner"
+    ],
+    "expected_files": [
+      "risk_register.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q62",
+    "type": "single_hop",
+    "question": "What is Maria Chen's role, and who do they report to?",
+    "requires_all": [
+      "Programme Manager",
+      "Aisha Bello"
+    ],
+    "query_entities": [
+      "Maria Chen"
+    ],
+    "expected_files": [
+      "org_roster.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q63",
+    "type": "single_hop",
+    "question": "What is David Okafor's role, and who do they report to?",
+    "requires_all": [
+      "Delivery Lead",
+      "Aisha Bello"
+    ],
+    "query_entities": [
+      "David Okafor"
+    ],
+    "expected_files": [
+      "org_roster.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q64",
+    "type": "single_hop",
+    "question": "What is Sam Patel's role, and who do they report to?",
+    "requires_all": [
+      "Delivery Lead",
+      "Omar Haddad"
+    ],
+    "query_entities": [
+      "Sam Patel"
+    ],
+    "expected_files": [
+      "org_roster.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q65",
+    "type": "single_hop",
+    "question": "What is Lena Ortiz's role, and who do they report to?",
+    "requires_all": [
+      "Delivery Lead",
+      "Jonas Berg"
+    ],
+    "query_entities": [
+      "Lena Ortiz"
+    ],
+    "expected_files": [
+      "org_roster.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q66",
+    "type": "single_hop",
+    "question": "What is Priya Raman's role, and who do they report to?",
+    "requires_all": [
+      "Engineering Manager",
+      "Hannah Liu"
+    ],
+    "query_entities": [
+      "Priya Raman"
+    ],
+    "expected_files": [
+      "org_roster.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q67",
+    "type": "single_hop",
+    "question": "What is Tom Whitfield's role, and who do they report to?",
+    "requires_all": [
+      "Delivery Lead",
+      "Omar Haddad"
+    ],
+    "query_entities": [
+      "Tom Whitfield"
+    ],
+    "expected_files": [
+      "org_roster.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q68",
+    "type": "single_hop",
+    "question": "Which projects does Project Delta depend on?",
+    "requires_all": [
+      "Project Atlas",
+      "Project Fathom"
+    ],
+    "query_entities": [
+      "Project Delta"
+    ],
+    "expected_files": [
+      "dependency_map.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q69",
+    "type": "single_hop",
+    "question": "Which projects does Project Echo depend on?",
+    "requires_all": [
+      "Project Borealis"
+    ],
+    "query_entities": [
+      "Project Echo"
+    ],
+    "expected_files": [
+      "dependency_map.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q70",
+    "type": "single_hop",
+    "question": "Which projects does Project Fathom depend on?",
+    "requires_all": [
+      "Project Echo"
+    ],
+    "query_entities": [
+      "Project Fathom"
+    ],
+    "expected_files": [
+      "dependency_map.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q71",
+    "type": "single_hop",
+    "question": "Which projects does Project Cirrus depend on?",
+    "requires_all": [
+      "Project Borealis"
+    ],
+    "query_entities": [
+      "Project Cirrus"
+    ],
+    "expected_files": [
+      "dependency_map.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q72",
+    "type": "single_hop",
+    "question": "Which projects does Project Atlas depend on?",
+    "requires_all": [
+      "Project Borealis"
+    ],
+    "query_entities": [
+      "Project Atlas"
+    ],
+    "expected_files": [
+      "dependency_map.pdf"
+    ],
+    "expected_sources": [
+      "document"
+    ]
+  },
+  {
+    "id": "Q73",
+    "type": "trap",
+    "question": "What is Project Atlas's marketing budget?",
+    "requires_all": [],
+    "query_entities": [],
+    "expected_files": [],
+    "expected_sources": [],
+    "unanswerable": true,
+    "must_not_contain": [
+      "120,000",
+      "35,000",
+      "85,000"
+    ]
+  },
+  {
+    "id": "Q74",
+    "type": "trap",
+    "question": "Who is the project manager for Project Borealis?",
+    "requires_all": [],
+    "query_entities": [],
+    "expected_files": [],
+    "expected_sources": [],
+    "unanswerable": true,
+    "must_not_contain": [
+      "Sam Patel",
+      "Maria Chen",
+      "Lena Ortiz"
+    ]
+  },
+  {
+    "id": "Q75",
+    "type": "trap",
+    "question": "What is the Data Team's annual budget?",
+    "requires_all": [],
+    "query_entities": [],
+    "expected_files": [],
+    "expected_sources": [],
+    "unanswerable": true,
+    "must_not_contain": [
+      "200,000",
+      "90,000"
+    ]
+  },
+  {
+    "id": "Q76",
+    "type": "trap",
+    "question": "When was Meridian Systems founded?",
+    "requires_all": [],
+    "query_entities": [],
+    "expected_files": [],
+    "expected_sources": [],
+    "unanswerable": true,
+    "must_not_contain": [
+      "2026",
+      "2027"
+    ]
+  },
+  {
+    "id": "Q77",
+    "type": "cross_source",
+    "question": "Who owns Project Atlas, and when was its launch moved to?",
+    "requires_all": [
+      "Maria",
+      "September"
+    ],
+    "query_entities": [],
+    "expected_files": [],
+    "expected_sources": [
+      "document",
+      "audio"
+    ]
+  },
+  {
+    "id": "Q78",
+    "type": "cross_source",
+    "question": "How much of Project Atlas's budget remains, and what is it being reallocated to?",
+    "requires_all": [
+      "35,000",
+      "quality assurance"
+    ],
+    "query_entities": [],
+    "expected_files": [],
+    "expected_sources": [
+      "document",
+      "audio"
+    ]
+  },
+  {
+    "id": "Q79",
+    "type": "cross_source",
+    "question": "What is Project Fathom's remaining budget, and what risk was raised about it in the meeting?",
+    "requires_all": [
+      "4,000",
+      "rollback"
+    ],
+    "query_entities": [],
+    "expected_files": [],
+    "expected_sources": [
+      "document",
+      "audio"
+    ]
+  },
+  {
+    "id": "Q80",
+    "type": "temporal",
+    "question": "Who is currently taking over as owner of Project Atlas?",
+    "requires_all": [
+      "David"
+    ],
+    "query_entities": [],
+    "expected_files": [],
+    "expected_sources": [
+      "audio"
+    ]
+  },
+  {
+    "id": "Q81",
+    "type": "temporal",
+    "question": "Has Project Atlas's launch date changed from what the report says?",
+    "requires_all": [
+      "September"
+    ],
+    "query_entities": [],
+    "expected_files": [],
+    "expected_sources": [
+      "audio"
+    ]
+  },
+  {
+    "id": "Q82",
+    "type": "temporal",
+    "question": "Which project has had its delivery date brought forward since the report?",
+    "requires_all": [
+      "Borealis"
+    ],
+    "query_entities": [],
+    "expected_files": [],
+    "expected_sources": [
+      "audio"
+    ]
+  }
+]

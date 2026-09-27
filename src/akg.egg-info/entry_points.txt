@@ -1,0 +1,2 @@
+[console_scripts]
+akg = akg.cli:app
